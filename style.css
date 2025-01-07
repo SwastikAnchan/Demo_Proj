@@ -1,0 +1,37 @@
+body {
+  background-color: #f8f9fa;
+}
+.hero {
+  background-color: #7eb3ec;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+.features {
+  padding: 60px 0;
+  animation: fadeIn 1s ease-in;
+}
+.feature-item {
+  text-align: center;
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+.feature-item:hover {
+  transform: scale(1.05);
+}
+.contact {
+  background-color: #343a40;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
